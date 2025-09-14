@@ -1,0 +1,14 @@
+baseURL = 'https://soupslut.org/'
+languageCode = 'en-us'
+title = 'Soup Sluts - Annual Soup Competition'
+
+[build]
+  [build.buildStats]
+    enable = false
+  [build.cachebusters]
+    [[build.cachebusters.source]]
+      path = "/Soup_Competition_Background_Video_Generation.mp4"
+      target = "video/mp4"
+
+[markup.goldmark.renderer]
+  unsafe = true # Allows inline HTML, which we need for Tailwind CSS classes

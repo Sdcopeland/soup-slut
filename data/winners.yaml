@@ -1,0 +1,31 @@
+# Winners
+#
+# Champions wall. One entry per year. `photo` paths are relative to /static.
+#
+# champ  = the winning entry (bigger card, the "wall")
+# runner = runner-up (smaller, shown under "Also on the stove")
+#
+# Leave `name` or `soup` as "" and the card renders "Name TBD" / "Soup TBD"
+# instead of inventing a result. Fill in as you remember them.
+
+champions:
+  - year: 2025
+    photo: "images/winners/2025_winners.webp"
+    name: ""
+    soup: ""
+    note: ""
+
+  - year: 2024
+    photo: "images/winners/2024_winners.webp"
+    name: ""
+    soup: ""
+    note: ""
+
+# Runner-up — held out of the champions wall on purpose
+# so a second place doesn't flatten the winners row.
+runners_up:
+  - year: 2025
+    photo: "images/winners/2025_2nd.webp"
+    name: ""
+    soup: ""
+    note: "Runner-up"

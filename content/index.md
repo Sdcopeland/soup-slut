@@ -1,1 +1,1 @@
-title:"Soup Sluts - Annual Soup Competition"
+title: "Soup Sluts - Annual Soup Competition"

@@ -1,0 +1,28 @@
+# Recipes
+
+# One file per soup you want to publish. These render at /recipes/.
+# `draft = true` means the recipe is scaffolded but NOT built or published.
+# All entries start as drafts so nothing fake ever ships.
+#
+# Required: title, year, author
+# Optional: soup_name, ingredients (list), steps (list), allergens (list), notes
+
+- title: "2025 Champion Recipe"
+  year: 2025
+  author: ""
+  soup_name: ""
+  ingredients: []
+  steps: []
+  allergens: []
+  notes: "Placeholder. Fill in and set draft = false to publish."
+  draft: true
+
+- title: "2024 Champion Recipe"
+  year: 2024
+  author: ""
+  soup_name: ""
+  ingredients: []
+  steps: []
+  allergens: []
+  notes: "Placeholder. Fill in and set draft = false to publish."
+  draft: true

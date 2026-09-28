@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }}</title>
+    <title>{{ .Title | default .Site.Title }}</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,6 +37,8 @@
                 <a href="#home" class="hover:text-orange-300 transition-colors">Home</a>
                 <a href="#details" class="hover:text-orange-300 transition-colors">Event Details</a>
                 <a href="#charity" class="hover:text-orange-300 transition-colors">Donate</a>
+                <a href="#winners" class="hover:text-orange-300 transition-colors">Winners</a>
+                <a href="#recipes" class="hover:text-orange-300 transition-colors">Recipes</a>
                 <a href="#register" class="hover:text-orange-300 transition-colors">Register</a>
                 <a href="#vote" class="hover:text-orange-300 transition-colors">Vote</a>
             </div>
@@ -51,6 +53,9 @@
         <div id="mobile-menu" class="hidden md:hidden mt-4 text-stone-200">
              <a href="#home" class="block py-2 px-4 hover:bg-stone-700 rounded">Home</a>
              <a href="#details" class="block py-2 px-4 hover:bg-stone-700 rounded">Event Details</a>
+             <a href="#charity" class="block py-2 px-4 hover:bg-stone-700 rounded">Donate</a>
+             <a href="#winners" class="block py-2 px-4 hover:bg-stone-700 rounded">Winners</a>
+             <a href="#recipes" class="block py-2 px-4 hover:bg-stone-700 rounded">Recipes</a>
              <a href="#register" class="block py-2 px-4 hover:bg-stone-700 rounded">Register</a>
              <a href="#vote" class="block py-2 px-4 hover:bg-stone-700 rounded">Vote</a>
         </div>
@@ -61,7 +66,7 @@
     </main>
 
     <footer class="bg-[#3D2B24] py-8 px-4 text-center">
-        <p class="text-stone-400">&copy; 2025 Soup Sluts Community. All rights reserved.</p>
+        <p class="text-stone-400">&copy; 2026 Soup Sluts Community. All rights reserved.</p>
         <p class="text-stone-500 mt-2">Made with ❤️ and broth.</p>
     </footer>
 
